@@ -2,7 +2,7 @@ laravel version 10.25.2
 
 how to install :
 
-open terminal and change directory to directory laravel folder then type in terminal `composer install` after that copy .env.example , rename it to .env then change db connection variable adjust to your database , after that run php artisan migrate:fresh --seed, and run php artisan serve
+open terminal and change directory to directory laravel folder then type in terminal `composer install` after that copy .env.example , rename it to .env then change db connection variable adjust to your database , after that run `php artisan migrate:fresh --seed`, and run `php artisan serve`
 
 ## **Resful api list**
 
