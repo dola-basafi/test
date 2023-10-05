@@ -45,7 +45,7 @@ class ListTaskController extends Controller
     }
 
     function taskList(Request $request){
-        $data = Task::where('user_id',$request->user()->id)->get();
+        $data = Task::where('user_id',$request->user()->id)->paginate(10);
         return response()->json([
             'status' => true,
             'messages' => $data
